@@ -21,7 +21,7 @@ void fill(char* arr){
 
     for (int i = 0; i < 8; i++){
 
-        int randnum = (rand() % (107)) + 20;
+        int randnum = (rand() % (106)) + 20;
 
         arr[i] = (char) randnum;
     }
