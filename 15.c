@@ -43,6 +43,6 @@ int main(void){
     for (int i = 0; i < N; i++){
         free(items[i].desc);
     }
-
+ 
     free(items);
 }
